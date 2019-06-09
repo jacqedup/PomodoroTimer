@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Timer</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+  <!-- Google Fonts --> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 id="title">Pomodoro Timer</h1>
+  <div class="container">
+    <div id="timeSetting">
+      <section>
+        <h1 id="session">Session</h1>
+        <i class="fas fa-chevron-up" id="incrementSession"></i>
+        <span id="sessionTime">25</span>
+        <i class="fas fa-chevron-down" id="decrementSession"></i>
+      </section>
+      <section>
+        <h1 id="break">Break</h1>
+        <i class="fas fa-chevron-up" id="incrementBreak"></i>
+        <span id="breakTime">5</span>
+        <i class="fas fa-chevron-down" id="decrementBreak"></i>
+      </section>
+    </div>
+
+    <div id="timer">25:00</div>
+
+    <div id="icons">
+        <i class="far fa-play-circle fa-2x" id="playBtn"></i>
+        <i class="far fa-pause-circle fa-2x" id="pauseBtn"></i>
+        <i class="fas fa-sync-alt fa-2x" id="resetBtn"></i>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

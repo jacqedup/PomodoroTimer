@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #000218; 
+  color: white;  
+  text-align: center
+}
+
+#title {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: transparent;
+  width: 350px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#timeSetting {
+  display: flex;
+  justify-content: center;
+}
+
+#timeSetting section {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;  
+}
+
+#session {
+  color: #00D0FF;
+}
+
+#timeSetting span {
+  padding: 0px 10px;
+  font-size: 1.3rem;
+}
+
+#timer {
+  font-size: 4rem;
+  margin-bottom: 50px;
+  color: #00D1FF;
+}
+
+#icons {
+  margin-bottom: 40px;
+}
+
+#icons i {
+  padding: 0px 10px;
+}
+
+i:hover {
+  color: #59FF00;
+  cursor: pointer;
+}
